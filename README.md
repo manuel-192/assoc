@@ -8,12 +8,13 @@ Associating directly to programs is simpler and more straightforward.
 1) Create your preferred associations:
 <pre>
 $ assoc -e "qtcreator -client" cpp c h
+$ assoc -e libreoffice doc xls odt ods
 $ assoc -v mpv mp4
 </pre>
 
 2) Use the associations:
 <pre>
-$ assoc -re myprogram.cpp sometest.h
+$ assoc -re myprogram.cpp sometest.h finance.xls
 $ assoc -rv myvideo.mp4
 </pre>
 
@@ -28,7 +29,7 @@ alias v='assoc -rv'
 
 so the second phase of the example above simplifies to:
 <pre>
-e myprogram.cpp sometest.h
+e myprogram.cpp sometest.h finance.xls
 v myvideo.mp4
 </pre>
 
