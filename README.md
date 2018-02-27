@@ -10,19 +10,25 @@ $ assoc -v mpv mp4
 </pre>
 
 2) Use the associations:
-- assoc -re myprogram.cpp sometest.h
-- assoc -rv myvideo.mp4
+<pre>
+$ assoc -re myprogram.cpp sometest.h
+$ assoc -rv myvideo.mp4
+</pre>
 
 The example above associated file endings cpp, c and h to command "qtcreator -client", and .mp4 files to command "mpv".
 Now editing files can be done with command 'assoc -re' and viewing a video with command 'assoc -rv'.
 Naturally aliases can be used to make this simpler, and they are provided with the implementation as follows:
+<pre>
 alias o='assoc -r'
 alias e='assoc -re'
 alias v='assoc -rv'
+</pre>
 
 so the second phase of the example above simplifies to:
+<pre>
 e myprogram.cpp sometest.h
 v myvideo.mp4
+</pre>
 
 # Changes
 0.1.43: 2018-Feb-24
