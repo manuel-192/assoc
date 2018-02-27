@@ -4,12 +4,12 @@ Command line program for associating programs with filename extensions.
 <H2>Example:</H2>
 
 1) Create associations like:
-assoc -e "qtcreator -client" cpp c h
-assoc -v mpv mp4
+- assoc -e "qtcreator -client" cpp c h
+- assoc -v mpv mp4
 
 2) Use the associations:
-assoc -re myprogram.cpp sometest.h
-assoc -rv myvideo.mp4
+- assoc -re myprogram.cpp sometest.h
+- assoc -rv myvideo.mp4
 
 The example above associated file endings cpp, c and h to command "qtcreator -client", and .mp4 files to command "mpv".
 Now editing files can be done with command 'assoc -re' and viewing a video with command 'assoc -rv'.
