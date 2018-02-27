@@ -39,7 +39,7 @@ assoc -v firefox htm html
 assoc -e bluefish htm html
 assoc -e libreoffice odt ods doc docx xls xlsx
 assoc -v evince pdf
-assoc -e emacs bash sh
+assoc -e emacs sh bash bashrc
 assoc -e qtcreator pro
 assoc -e "qtcreator -client" c cpp h
 </pre>
