@@ -4,8 +4,10 @@ Command line program for associating programs with filename extensions.
 <H2>Example:</H2>
 
 1) Create associations like:
+<pre>
 $ assoc -e "qtcreator -client" cpp c h
 $ assoc -v mpv mp4
+</pre>
 
 2) Use the associations:
 - assoc -re myprogram.cpp sometest.h
