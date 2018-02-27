@@ -1,5 +1,7 @@
 # assoc
-Command line program for associating programs with filename extensions.
+Command line program for associating filename extensions to programs.
+MS Windows provides a similar command line application that associates extensions to file types instead of programs.
+Associating directly to programs is simpler and more straightforward.
 
 <H2>Example:</H2>
 
