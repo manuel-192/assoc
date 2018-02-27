@@ -14,7 +14,7 @@ $ assoc -v mpv mp4
 
 2) Use the associations:
 <pre>
-$ assoc -re myprogram.cpp sometest.h finance.xls
+$ assoc -re myprogram.cpp sometest.h financial_report.xls
 $ assoc -rv myvideo.mp4
 </pre>
 
@@ -29,7 +29,7 @@ alias v='assoc -rv'
 
 so the second phase of the example above simplifies to:
 <pre>
-e myprogram.cpp sometest.h finance.xls
+e myprogram.cpp sometest.h financial_report.xls
 v myvideo.mp4
 </pre>
 
