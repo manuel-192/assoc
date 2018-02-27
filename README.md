@@ -30,6 +30,17 @@ e myprogram.cpp sometest.h
 v myvideo.mp4
 </pre>
 
+Examples of some preferred associations:
+<pre>
+assoc -v firefox htm html
+assoc -e bluefish htm html
+assoc -e libreoffice odt ods doc docx xls xlsx
+assoc -v evince pdf
+assoc -e emacs bash sh
+assoc -e qtcreator pro
+assoc -e "qtcreator -client" c cpp h
+</pre>
+
 # Changes
 0.1.43: 2018-Feb-24
 - fixed extensionless file association
