@@ -3,7 +3,7 @@ Command line program for associating programs with filename extensions.
 
 <H2>Example:</H2>
 
-1) Create associations like:
+1) Create your preferred associations:
 <pre>
 $ assoc -e "qtcreator -client" cpp c h
 $ assoc -v mpv mp4
