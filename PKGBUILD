@@ -2,7 +2,7 @@
 
 pkgdesc="Associate programs to filename extensions."
 pkgname=assoc
-pkgver=0.1.43
+pkgver=0.1.46
 pkgrel=1
 url="https://github.com/manuel-192/$pkgname"
 arch=('any')
@@ -12,7 +12,7 @@ source=(
   "$url/raw/master/$pkgname.bash-$pkgver"
 )
 sha512sums=(
-  '3e7651f800a4a480142b7fa6e01ecff5dc9b85479598e025136b8d34ebf1e0a1ad1325a3026030a4be559d721c35c432074b31b071ca2ee7fc9758d445efbbd1'
+  '4a5f72e4a8d5f9285b812e4ea5e9ee4e682de30a34144dfb00f40b79ce5434413a3842d507aaa50a585a43b94c7aa6848c6254b3074791111097089984bc03ba'
 )
 
 package() {
