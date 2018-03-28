@@ -45,5 +45,7 @@ assoc -e "qtcreator -client" c cpp h
 </pre>
 
 # Changes
+0.1.46: 2018-Mar-29
+- fixed bash file handling
 0.1.43: 2018-Feb-24
 - fixed extensionless file association
