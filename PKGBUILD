@@ -17,5 +17,5 @@ sha512sums=(
 
 package() {
   cd $srcdir
-  install -Dm555 $pkgname.bash-$pkgver $pkgdir/usr/bin/$pkgname.bash
+  install -Dm555 $pkgname.bash-$pkgver $pkgdir/usr/bin/$pkgname
 }
