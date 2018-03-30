@@ -45,6 +45,9 @@ assoc -e "qtcreator -client" c cpp h
 </pre>
 
 # Changes
+0.1.47: 2018-Mar-30
+- usability and install improvements
+
 0.1.46: 2018-Mar-29
 - fixed bash file handling
 
