@@ -1,5 +1,5 @@
 # assoc
-Not available anymore.
+Not publicly available anymore.
 <br><br>
 Command line program for associating filename extensions to programs.
 MS Windows provides a similar command line application that associates extensions to <i>file types</i> instead of programs.
